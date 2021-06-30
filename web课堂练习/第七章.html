@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+    .cont
+    {
+    margin:20px auto;
+    width:1190px;
+    height:450px;
+    background:url("7.png ");
+
+    }
+        .cont>ul{
+            width: 1190px;
+            height: 50px;
+            background: #777;
+            color: #fff;
+        }
+    .cont>ul>li
+    {
+    width:170px;
+    height:50px;
+    overflow:hidden;
+    transition: 0.5s ease height;
+    float:left;
+    line-height:50px;
+    text-align:center;
+    list-style:none;
+    font-size:20px;
+    position:relative;
+
+
+    }
+    .cont>ul>li:hover
+    {
+    background:#fff;
+    color:rgb(28,178,156);
+    height:250px;
+    }
+    .cont>ul>li:hover
+    {
+        background: #fff;
+        color: rgb(28,128,156);
+        height: 250px;
+
+    }
+    .cont>ul>li:hover ul
+    {
+        display:block;
+    }
+    .cont>ul>first-child{
+        background: #eee;
+        color: rgb(28,178,156);
+    }
+    .cont>ul>li:first-child:hover
+    {
+    height:50px;
+    }
+    .cont>ul>li:last-child:hover
+    {
+    height:200px;
+    }
+    .cont>ul>li>ul
+    {
+display:none;
+    list-style:none;
+    color:#000;
+    position:absolute;
+    top:50px;
+    left:0;
+    }
+        .cont>ul>li>ul>li
+        {
+            padding: 0 35px;
+            background: #fff;
+            clear: both;
+            color: #000;
+        }
+        .cont>ul>li>ul>li:hover
+        {
+            background: #c0ff00;
+        }
+    </style>
+</head>
+<body>
+<div class="cont">
+    <ul>
+        <li>首页</li>
+        <li>知识图谱
+            <ul class="drop">
+                <li>IT高新技能</li>
+                <li>公务员考试</li>
+                <li>计算机二级</li>
+                <li>考研一站通</li>
+            </ul>
+        </li>
+
+
+   <li>IT精英
+        <ul class="drop">
+            <li>IT高新技能</li>
+            <li>公务员考试</li>
+            <li>计算机二级</li>
+            <li>考研一站通</li>
+        </ul>
+    </li>
+
+
+    <li>IT精英
+        <ul class="drop">
+            <li>IT高新技能</li>
+            <li>公务员考试</li>
+            <li>计算机二级</li>
+            <li>考研一站通</li>
+        </ul>
+    </li>
+    <li>IT精英
+        <ul class="drop">
+            <li>IT高新技能</li>
+            <li>公务员考试</li>
+            <li>计算机二级</li>
+            <li>考研一站通</li>
+        </ul>
+    </li>
+    <li>IT精英
+        <ul class="drop">
+            <li>IT高新技能</li>
+            <li>公务员考试</li>
+            <li>计算机二级</li>
+            <li>考研一站通</li>
+        </ul>
+    </li>
+    <li>IT精英
+        <ul class="drop">
+            <li>IT高新技能</li>
+            <li>公务员考试</li>
+            <li>计算机二级</li>
+
+        </ul>
+    </li>
+    </ul>
+</div>
+</body>
+</html>

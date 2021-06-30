@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第五章</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .cont{
+            width: 880px;
+            margin: 20px auto;
+
+        }
+        .img
+        {
+            float:left;
+        }
+        form{
+            width:450px;
+            float:left;
+        }
+        form>:first-child~*
+        {margin-left:100px;
+        }
+        h1{
+            margin: 0 0 40px 20px;
+        }
+        .img img
+        {
+            height:517px;
+        }
+        .txt,.sure,.sel
+        {
+            margin-top: 10px;
+            display: block;
+            font-size: 18px;
+        }
+        .txt input,.sure input
+        {
+            width: 250px;
+            height: 35px;
+        }
+        .sure
+        {
+            margin-left:-35px;
+
+        }
+        .cont>form>div
+        {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .cont>form>div>label{
+            margin-left: 20px;
+        }
+        .birth select
+        {
+            padding: 5px 5px 5px 0;
+        }
+        .addr{
+            margin-left: -18px;
+        }
+        .addr select
+        {
+            padding: 5px 23px 5px 0;
+        }
+        p{
+            color:#909090;
+            font-size:12px;
+            margin: 10px 0 0 50px;
+        }
+        [type="button"]
+        {
+            background: #00ff00;
+            color: #fff;
+            border:none;
+            margin: 20px 50px ;
+            font-size: 24px;
+            padding: 10px 78px;
+        }
+        .sel input
+        {
+
+            width: 15px;
+            height: 15px;
+            margin: auto 10px auto 0;
+        }
+    </style>
+
+
+
+</head>
+<body>
+<div class="cont">
+    <div class="img" >
+        <img src="5.1.png">
+    </div>
+    <form>
+        <h1>欢迎注册</h1>
+        <label class="txt">昵称：<input type="text"></label><br>
+        <label class="txt">密码：<input type="password"></label><br>
+        <label class="sure">确认密码：<input type="password"></label><br>
+        <div >性别:
+            <label><input type="radio" name="sex">男</label>
+            <label><input type="radio" name="sex">女</label>
+        </div>
+        <div class="birth">生日:
+            <select><option>公历</option> </select>
+            <select><option>1996年</option> </select>
+            <select><option>月</option> </select>
+            <select><option>日</option> </select>
+
+        </div>
+        <div class="addr">所在地:
+            <select><option>中国</option> </select>
+            <select><option>吉林</option> </select>
+            <select><option>长春</option> </select>
+        </div>
+        <label class="sure">手机号码:<input type="text"></label>
+        <p>通过该手机号码找回密码</p>
+        <input type="button" value="立即注册"><br>
+        <label > <input type="checkbox">我已阅读并同意服务条款和隐私政策</label>
+    </form>
+
+
+</div>
+
+
+</body>
+</html>
